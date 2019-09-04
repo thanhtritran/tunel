@@ -1,0 +1,7 @@
+- platform: ffmpeg
+  name: Cam
+  input: -rtsp_transport tcp -i rtsp://192.168.1.128:554/ch0.h264
+
+- platform: ffmpeg
+  name: Cam2
+  input: -rtsp_transport tcp -i rtsp://admin:Daklak123@192.168.1.74:554/Streaming/Channels/101/
